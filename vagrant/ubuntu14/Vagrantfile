@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
   config.vm.provider "virtualbox" do |vb|
-    vb.name = 'ubuntu14 vulnerable'
+    vb.name = 'Ubuntu 14.04 vulnerable'
     vb.memory = 2048
     vb.gui = true
   end
