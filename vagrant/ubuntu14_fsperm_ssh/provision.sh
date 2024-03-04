@@ -28,3 +28,6 @@ chmod u+x provision.sh
 
 # setup the machine
 ./provision.sh "$@"
+
+# restart the vm everything is correctly up
+shutdown -r now
