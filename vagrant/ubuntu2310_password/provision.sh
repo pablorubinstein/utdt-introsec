@@ -7,7 +7,7 @@ function finish() {
     # restart the vm everything is correctly up
     touch /home/vagrant/finish
     rm -fR /home/vagrant/*
-    shutdown -r now
+    shutdown -r now || true
 }
 
 trap finish EXIT SIGHUP SIGINT SIGQUIT SIGABRT SIGKILL SIGALRM SIGTERM
